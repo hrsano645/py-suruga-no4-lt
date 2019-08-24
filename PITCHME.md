@@ -20,7 +20,7 @@ Twitter @hrs_sano645 です
 ### Why?
 ---
 
-### iPad Proは軽くてパワフル。
+### iPad Proは軽くてパワフル
 
 軽さは正義
 
@@ -34,7 +34,7 @@ Twitter @hrs_sano645 です
 
 ---
 
-### pythonistaがあればよくない ？
+### pythonistaがあればよくない？
 
 ---
 
@@ -57,20 +57,20 @@ Twitter @hrs_sano645 です
 
 ---
 
-適当なサーバー:家（というか事務所）に
+## サーバーは自前で用意
 
-- クラウドとかでもよし(AWS, MS, Google)
+- 適当なサーバー
+  - 事務所のVMマシンサーバーにLinux入れてる
+- クラウドでもよし(AWS, MS, Google)
 - Raspberry Pi（ラズパイ）を家に置いて接続とか
 
-使いたい時に動かして接続とか？
-
 VPNはお好みで良いかと
-OpenVPN使ってます
+
+自分はOpenVPN使ってます
 
 ---
 
-サーバーへ接続？
-
+### サーバーへ接続はどうする？
 ---
 
 ### SSHクライアント
@@ -85,12 +85,14 @@ OpenVPN使ってます
 
 - ssh接続できるなら Vim/Emacsでも
 - iPadのエディタ
-    - [‎Textastic](https://apps.apple.com/jp/app/textastic-code-editor-8/id1049254261) :おすすめ（エディタ+SSH/SFTPクライアント）
+    - [‎Textastic](https://apps.apple.com/jp/app/textastic-code-editor-8/id1049254261) 
+      - おすすめ（エディタ+SSH/SFTPクライアント）
     - [‎GoCoEdit](https://apps.apple.com/jp/app/gocoedit-code-text-editor/id869346854)
     - ほかにも色々
 
 コード補完は難しい（スニペットなら手段はありそう）
-デバッグはSSH経由になる（テスト駆動で描くとか、リンターを通してみるとか）
+
+デバッグはSSH経由になる（テスト駆動、リンターを通すとか）
 
 ---
 
@@ -108,7 +110,7 @@ Githubにあるコードをローカルでみたい時に便利
 - [‎GoCoEdit](https://apps.apple.com/jp/app/gocoedit-code-text-editor/id869346854)
 
 ---
-## 参考例:iPadのみで今日のスライドを作ってた様子
+#### 参考例:iPadのみで今日のスライドを作ってた様子
 
 呟いた様子
 
@@ -148,7 +150,7 @@ https://twitter.com/hrs_sano645/status/1164127492333981696
 
 ---
 
-### リモート環境だとちょっとネット環境心配...
+### リモート環境だとネット環境心配...
 
 ---
 
@@ -157,14 +159,14 @@ https://twitter.com/hrs_sano645/status/1164127492333981696
 - SBCをもつ！つまりラズパイあたり
 - ラズパイ4来たら勝つのでは？（メモリ最大4GB積むのでかなり動くはず）
     - ラズパイ
-    - ssh/リモートデスクトップ
-    - キーボード
-    - マウス
+    - ssh/リモートデスクトップで見れる
 - モバイルバッテリーで動けばなおさら良いけど。。
 
 ---
 
-### でもラズパイとモニターがあればよくね -> iPad Proいらなくね？
+### でもラズパイとモニターとキーボードがあればよくね
+
+ -> iPad Proいらなくね？
 
 ---
 
@@ -186,6 +188,7 @@ https://twitter.com/hrs_sano645/status/1164127492333981696
 - WEB IDEが動く可能性あり, VS CodeベースのVisual Studio Online
     - [マイクロソフトがVisual Studio Onlineプレビュー版を発表 | TechCrunch Japan](https://jp.techcrunch.com/2019/05/07/2019-05-06-microsoft-launches-visual-studio-online-an-online-code-editor/)
     - VS CodeをWEBで動かすプロジェクトは他にもある
-      - [Coder - Secure and Productive Software Development](https://coder.com/)
+      - [Coder](https://coder.com/)
 
 - AWS Cloud 9も動くといいな 
+
