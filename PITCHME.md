@@ -1,17 +1,28 @@
 ---
+### Python駿河 勉強会 #4  LT
 
-### おまけ: iPad ProでPythonの開発環境を作る
+#### iPad ProでPythonの開発環境を作る
+
+2019/08/24 @Bivi藤枝
 
 ---
 
-### ええ、iPad ProでPython開発環境？
+### お前誰よは割愛
+
+Twitter @hrs_sano645 です
+
+---
+
+### iPad ProでPython開発環境？
 
 ---
 
 ### Why?
 ---
 
-### iPad Proは軽くてパワフル。軽さは正義
+### iPad Proは軽くてパワフル。
+
+軽さは正義
 
 ---
 
